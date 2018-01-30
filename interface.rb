@@ -4,9 +4,7 @@ require_relative "./calculadora.rb"
 class Interface
 
 	def meuCalculo
-
-		calc = Calculadora.new()
-
+		calc = Calculadora.new
 		puts "Entre com o primeiro valor"
 		num1 = gets.chomp
 		calc.num1 = num1
