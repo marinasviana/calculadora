@@ -1,5 +1,5 @@
-#require_relative "./calculadora.rb"
-require_relative "/Users/m.siqueira.viana/.jenkins/workspace/calculadora/calculadora.rb"
+require_relative "./calculadora.rb"
+
 describe Calculadora do
 	
 	describe "#soma" do
