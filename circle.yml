@@ -1,0 +1,12 @@
+machine:
+  ruby:
+    version: 2.5.0
+dependencies:
+  override:
+    - gem install bundler
+     gem install rspec
+
+test:
+  override:
+    - bundle install
+    - rspec test.rb
