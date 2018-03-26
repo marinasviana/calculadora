@@ -4,7 +4,7 @@ machine:
 dependencies:
   override:
     - gem install bundler
-     gem install rspec
+    - gem install rspec
 
 test:
   override:
